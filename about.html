@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+        
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .gridBox {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-auto-rows: auto;
+        gap: 1px;
+      }
+      .child {
+        background-color: rgb(251, 254, 254);
+      }
+      .Box1,
+      .Box2{
+        grid-column: span 2;
+        
+      }
+      
+      .Box5 {
+        grid-column: span 2;
+        height: 700px;
+        margin: 0;
+        padding: 0;
+
+       
+        
+      }
+      .Box6{
+            grid-column: span 2;
+            
+        margin: 0;
+        padding: 0;
+
+        }
+      /* .Box3,.Box4 {
+        width: 50%;
+        height: 600px;
+         background-color: rgb(157, 141, 172); 
+      } */
+
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="gridBox">
+      <div class="child Box1">
+        <header class="navbar">
+          <div class="container">
+            <div class="logo">
+                <h1><a style="color: black; text-decoration: none;" href="./index.html" >ALEX HONNOLD</a></h1>
+              <p>Personal Life Coach</p>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./servises.html">Servises</a></li>
+                <li><a href="./plans.html">Plans</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./guides.html">Guides</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li>
+                  <i
+                    class="fa-solid fa-circle-user"
+                    style="color: rgb(31, 142, 107)"
+                  ></i
+                  ><a href="">Log In</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <!-- <div class="child Box2"> 
+        <section class="allan">
+          <div class="allanContent">
+            <p >AMBITION IS THE FIRST STEP TOWARDS</p>
+            <h1>SUCCESS</h1>
+            <p class="bottom">Now Available For Online Coaching</p>
+            <button>Book Now</button>
+          </div>
+        </section>
+      </div> -->
+      
+      <div class="child Box3">
+        <section class="about">
+            <div class="aboutText">
+            
+                <h2 >ABOUT ME</h2>
+              
+                <p>
+                  Alex Honnold is a great solo climber. He has no fear in mind. Neuroscientists performed an fMRI scan of his brain and found it strange. Detailed papers written on Alex Honnold’s mind also tend to provide great insight into our well-being and happiness.
+                </p>
+                <p>
+                  Alex Honnold is a great solo climber. He has no fear in mind. Neuroscientists performed an fMRI scan of his brain and found it strange. Detailed papers written on Alex Honnold’s mind also tend to provide great insight into our well-being and happiness. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.
+                </p>
+                <div class="buttons">
+                    <button class="btnDark">Read More</button>
+                    <button class="btnLight">Free Consultation</button>
+                </div>
+            </div>
+            <div class="aboutImage">
+              <!-- <img src="https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_559,h_816,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg" height="600px" alt=""> -->
+             
+          </div>
+            
+        </section>
+        
+        </div>
+     
+      <div class="child Box4">
+       
+
+      </div>
+      <div class="child Box5">
+        <section class="services">
+            <div class="container">
+                <h2>HOW I CAN HELP YOU</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>FREE CONSULTATION</h3>
+                        <p>Use this area to describe one of your services.</p>
+                        <hr>
+                        <p>45 min</p>
+                        <br><br><br>
+                        <button class="btn1">Book It</button>
+
+                    </div>
+                    <div class="card">
+                        <h3>ONLINE COACHING</h3>
+                        <p>Use this area to describe one of your services.</p>
+                        <hr>
+                        <p>1 hr<br>$70</p>
+                        <br><br>
+                        <button class="btn2">Book It</button>
+                    </div>
+                    <div class="card">
+                        <h3>SELF-IMPRUVEMENT WORKSHOP</h3>
+                        <p>Use this area to describe one of your services.</p>
+                        <hr>
+                        <p>Mon, Tue, Wed, Thu, Fri <br> 1 hr<br> $90</p>
+                        
+                        <button class="btn">Book It</button>
+
+                    </div>
+
+                </div>
+                <button class="moreServices">More Services</button>
+
+            </div>
+        </section>
+      </div>
+
+      <div class="child Box6">
+        <section class="contactSection">
+            <div class="container">
+                <div class="ContactInfo">
+                    <h4 class="con">CONTACT</h4>
+                    <address>
+                        500 Terry Francine Street, <br>
+                        San Francisco, CA 94158 <br><br>
+                        Tel: 123-456-7890 <br>
+                        Fax: 123-456-7890 <br><br>
+                        <a href="info@mysite.com" style="color: black;">info@mysite.com</a>
+                    </address>
+
+                    <div class="socialMedia">
+                        <a href="https://ka.wikipedia.org/wiki/Facebook"><i class="fa-brands fa-facebook-f" style="color: black;"></i></a>
+                        <a href="https://ka.wikipedia.org/wiki/Twitter"><i class="fa-brands fa-twitter" style="color: black;"></i></i></a>
+                        <a href="https://ka.wikipedia.org/wiki/Instagram"><i class="fa-brands fa-instagram" style="color: black;"></i></a>
+                        <a href="https://ka.wikipedia.org/wiki/YouTube"><i class="fa-brands fa-youtube" style="color: black;"></i></a>
+                    </div>
+                    <p>© 2035 by Personal Life Coach. </p> 
+                    <p>Powered and secured by <a href="#">Wix</a>.</p>
+                      
+
+                </div>
+                <form class="ContactForm">
+                     <div class="formGroup">
+                    <div class="FormLeft">
+                    <p>First Name *</p>
+                    <div class="formGroup">
+                        <input type="text" placeholder="First Name *" required>
+                     </div>
+                     </div>
+                    <div class="FormRight">
+                            <p>Last Name *</p>
+                            <div class="formGroup">
+                                <input type="text" placeholder="First Name *" required>    
+                                </div>
+                    </div>
+                </div>
+                <p>Email *</p>
+                    <input type="email" placeholder="Email *" required>
+                    <p>Subject</p>
+                    <input type="text" placeholder="Subject" >
+                    <p>Message</p>
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit" class="btn4">Submit</button>
+                </form>
+
+            </div>
+        </section>
+          
+      </div>
+    </div>
+  </body>
+</html>

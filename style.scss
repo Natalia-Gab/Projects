@@ -1,0 +1,539 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(102, 102, 102) ;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(10, 10, 10);
+    z-index: 1000;
+   
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+    }
+    .logo{
+        h1{
+            margin: 0;
+            font-size: large;
+            color: #000000;
+            letter-spacing: 4px;
+            font-weight:800;
+            
+        }
+            p {
+                margin: 0;
+                padding: 5px 15px;
+                font-size: small;
+                color: #180000;
+                letter-spacing: 3px;
+                font-weight:400;
+                
+
+            }
+       
+    }
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    color: #180000;
+
+    li{
+        margin-left: 20px;
+
+        a{
+            text-decoration: none;
+            color: #080707;
+            font-size:medium;
+            font-weight:lighter;
+            &:hover{
+                color: #04566c;
+                }
+
+        }
+
+    }
+}
+
+}
+
+.allan{
+    background: url("https://hypercritic.org/wp-content/uploads-webpc/uploads/2022/04/Alex_Honnold_at_Yosemite.png.webp");
+    background-size: cover;
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    
+    
+
+    
+
+    .allanContent{
+        z-index: 1;
+        p:first-of-type{
+            font-size: medium;
+            letter-spacing: 3px;
+            color: #fff;
+            font-weight: bold;
+        }
+        h1{ 
+            font-size:120px;
+            letter-spacing: 15px;
+            color: #fff;
+            font-weight: 900;
+            margin: 10px 0;
+
+        }
+        p:last-of-type {
+        font-size: large;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight:400;
+        
+    }
+
+    button{
+        background-color: rgb(38, 132, 186);
+        color: white;
+        border: none;
+       border-style:solid ;
+        padding: 10px 30px;
+        margin-top: 20px;
+        font-size: medium;
+        cursor: pointer;
+        &:hover{
+            background-color: #fff;
+            color: #000000;
+            border-color: 2px  #02487a; 
+            align-items: center;
+            transition: 0.5s;
+           
+        }
+    }
+}
+}
+
+
+.about {
+    display: grid;
+    grid-template-columns: auto;
+   gap: 10px;
+    display: flex;
+   
+    align-items:center;
+    text-align: justify;
+    width: 50%;   /*50%*/
+    
+
+    .aboutText {
+       display: flex;
+       padding: 60px;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            font-size: 50px;
+            color: #000000;
+            
+            font-weight: bold;
+            margin-bottom: 15px;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: 0;
+                width: 50px;
+                height: 2px;
+                background-color: black;
+            }
+        }
+
+        p {
+           
+            font-size: 15px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+
+            .btnDark {
+                padding: 10px 20px;
+                font-size: 15px;
+                background-color: #000000;
+                color: #fff;
+                cursor: pointer;
+                &:hover{
+                    background-color: #fff;
+                    color: #000000;
+                    border-color: 2px  #000000; 
+                    align-items: center;
+                    transition: 0.5s;
+                   
+                }
+            }
+            .btnLight {
+                padding: 10px 20px;
+                font-size: 15px;
+                background-color: #fff;
+                 
+                &:hover{
+                background-color:#000000;
+                color:#fff;
+                border-color: 2px  #000000; 
+                align-items: center;
+                transition: 0.5s;
+           
+             }
+               
+            }
+
+        }
+    }
+    
+    
+}
+
+.about {
+    display: flex;
+    width: 100%;
+}
+
+.aboutText {
+    width: 50%;
+    height: 500px;
+}
+
+.aboutImage {
+   
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alex_Honnold_in_2023_in_Antarctica.jpg/1200px-Alex_Honnold_in_2023_in_Antarctica.jpg");
+background-size: cover;  
+display: grid;
+grid-template-columns: auto;
+
+
+ width: 50%;
+ height: 500px;
+display: flex;
+align-items: center;
+} 
+.services{
+    background: url("https://img.freepik.com/premium-photo/mountains-clouds-with-mountains-background_662214-90056.jpg");
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    
+
+    .container{
+        top: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+    h2{
+        font-size: 50px;
+        color: #000000;
+        /*text-align: center;*/
+        font-weight: bold;
+        margin-bottom: 30px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: -20px;
+            width: 50px;
+            height: 2px;
+            background-color: #000000;
+        }
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 900px;
+        
+        height: 500px;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 30px;
+        margin-inline: auto;
+       
+        
+        .card{
+            height: 400px;
+           
+            border: 6px solid black;
+            padding: 0 15px;
+            flex: 1;
+            border-radius: 5px;
+            text-align: center;
+            
+
+            h3{
+                font-size: 30px;
+                text-align: center;
+                color:#000000;
+                font-weight: bold;
+                margin-bottom: 15px;
+
+            }
+            p{
+                margin-bottom: 15px;
+                font-size: 15px;
+                font-weight: lighter;
+                
+
+            }
+            hr{
+                margin: 20px 0;
+                border: 1.5px solid;
+                border-top: 1px solid black;
+            }
+            .btn, .btn1, .btn2 {
+                background-color: #000000;
+                color: #fff;
+                padding: 10px 30px;
+               margin-top: 10px;
+                border-radius: 2px;
+                cursor: pointer;
+                
+
+                &:hover{
+                    background-color:#fff;
+                    color:#000000;
+                    border-color: 2px  #000000; 
+                    align-items: center;
+                    transition: 0.5s;
+                    
+                }
+                
+            }
+            .btn1{
+                padding: 10px 30px;
+                margin-top: 20px;
+            }
+            .btn2{
+                padding: 10px 30px;
+                margin-top: 25px;
+            }
+
+        }
+
+    }
+    .moreServices{
+        display: block;
+        margin: 0 auto;
+        
+        background-color: black;
+        color: #fff;
+        padding: 12px 30px;
+        border-radius: 2px;
+        bottom: 70px;
+        &:hover{
+            background-color:#fff;
+            color:#000000;
+            border-color: 2px  #000000; 
+            align-items: center;
+            transition: 0.5s;
+            
+        }
+
+    }
+}
+.contactSection{
+    background-color:#69A4B1;
+    padding: 150px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 30px;
+        
+
+    }
+
+    .ContactInfo{
+        flex: 1;
+        min-width: 250px;
+        color: #000000;
+
+        h4{
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            position: relative;
+            color: #000000;
+
+
+            &::before{
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: 0;
+                width: 50px;
+                height: 2px;
+                background-color: #000000;
+
+        }
+    }
+
+    address{
+        font-style: normal;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #000000;
+        
+
+    }
+    .socialMedia{
+        margin-bottom: 20px;
+        color: #000000;
+       
+       
+        a{
+            color:#000000;
+            font-size: 20px;
+            margin-right: 10px;
+            transition: 0.3s;
+         
+            
+            &:hover{
+                color: rgb(83, 213, 239);
+                
+                
+            }
+
+        }
+    }
+    p {
+        font-size: medium;
+        color: #000000;
+        a{
+            
+            text-decoration: none;
+            border-bottom: 1px solid #000;
+            transition: 0.3s, border-bottom 0.3s;
+
+            &:hover{
+                color: rgb(83, 213, 239);
+               
+            }
+        }
+
+    }
+}
+
+.ContactForm{
+    flex: 1;
+    min-width: 250px;
+    p{
+        color: black;
+        font-weight: 400;
+        padding:  10px 0 ;
+    }
+    .formGroup{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        
+        .FormLeft, .FormRight {
+            width: 50%;
+        }
+
+        input{
+            // flex: 1;
+           background-color:transparent;
+           height: 35px;
+        //    width: 270px;
+           
+           
+           
+
+
+        }
+    }
+        input {
+            width: 100%;
+            padding: 10px;
+            height: 35px;
+            border: 2px solid #000;
+            outline: none;
+            background-color:transparent;
+            font-weight: lighter;
+            
+        }
+        textarea{
+            height: 80px;
+            resize: none;
+            background-color: transparent;
+            width: 100%;
+            padding: 10px;
+           
+            border: 2px solid #000;
+            outline: none;
+        }
+        button{
+            background-color: #000000;
+            color: #fff;
+            padding: 12px 70px;
+           // border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 15px;
+            letter-spacing: 2px;
+            // margin:20px 410px  ;
+            transition:  0.3s;
+            margin:  20px 0;
+            
+
+            &:hover{
+               // background-color: #555;
+                background-color:#fff;
+                color:#000000;
+                font-weight: 500;
+                border-color: 4px  #000000; 
+                align-items: center;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+
+
+.containerServ{
+    width: 80%;
+    max-width: 1200px;
+    padding-top: 30px;
+}
